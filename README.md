@@ -21,3 +21,6 @@ Alphabet Soup is a non-profit, philthropic foundation dedicated to helping organ
     * Bucketing the "INCOME_AMT" feature lowered unique values from 9 to 7.
 * The new model had an accuracy score of 72.72%, which wasn't a significant increase from our initial model.
 * We were not able to achieve target performance.
+
+## Summary
+Both our initial and optimized neural network models did not achieve target performance with both falling just shy of the 75% mark. Because our dataset was tabular and we are attempting to build a binary classifier that generates categorical output, it may have been more effeicient to use a Random Forect Classifier here instead. 
